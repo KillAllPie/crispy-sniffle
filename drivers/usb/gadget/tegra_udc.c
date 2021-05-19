@@ -51,7 +51,7 @@
 #include "tegra_udc.h"
 
 #include "../../../arch/arm/mach-tegra/usb_phy.c"
-#include "../otg/ulci_viewport.c"
+#include "../otg/ulpi_viewport.c"
 #include "../../../arch/arm/mach-tegra/fuse.h"
 #include "../../../arch/arm/mach-tegra/pinmux.c"
 
