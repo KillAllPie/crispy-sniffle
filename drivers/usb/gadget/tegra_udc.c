@@ -50,7 +50,12 @@
 
 #include "tegra_udc.h"
 
-#define IS_NEW_PHY_DRIVER 1
+#include "../../../arch/arm/mach-tegra/usb_phy.c"
+#include "../otg/ulci_viewport.c"
+#include "../../../arch/arm/mach-tegra/fuse.h"
+#include "../../../arch/arm/mach-tegra/pinmux.c"
+
+//#define IS_NEW_PHY_DRIVER 1
 
 #ifndef IS_NEW_PHY_DRIVER
 #include "fsl_tegra_udc.c"
