@@ -50,9 +50,7 @@
 
 #include "tegra_udc.h"
 
-#include "../../../arch/arm/mach-tegra/include/mach/usb_phy.c"
-
-// #define IS_NEW_PHY_DRIVER 1
+#define IS_NEW_PHY_DRIVER 1
 
 #ifndef IS_NEW_PHY_DRIVER
 #include "fsl_tegra_udc.c"
