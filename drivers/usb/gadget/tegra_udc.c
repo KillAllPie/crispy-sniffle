@@ -50,7 +50,7 @@
 
 #include "tegra_udc.h"
 
-/* #define IS_NEW_PHY_DRIVER 1 */
+#define IS_NEW_PHY_DRIVER 1
 
 #ifndef IS_NEW_PHY_DRIVER
 #include "fsl_tegra_udc.c"
