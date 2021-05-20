@@ -52,7 +52,7 @@
 
 #include "../../../arch/arm/mach-tegra/usb_phy.c"
 #include "../otg/ulpi_viewport.c"
-#include <mach/fuse.c>
+#include "../../../arch/arm/mach-tegra/fuse.c"
 #include <mach/pinmux.h>
 
 //#define IS_NEW_PHY_DRIVER 1
