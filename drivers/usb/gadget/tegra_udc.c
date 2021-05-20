@@ -49,7 +49,7 @@
 #include <mach/iomap.h>
 
 #include "tegra_udc.h"
-
+/*
 #include "../../../arch/arm/mach-tegra/usb_phy.c"
 #include "../otg/ulpi_viewport.c"
 #include "../../../arch/arm/mach-tegra/fuse.h"
@@ -57,7 +57,7 @@
 #include <mach/pinmux.h>
 #include "../../../arch/arm/mach-tegra/tegra2_speedo.c"
 #include "../../../arch/arm/mach-tegra/apbio.c"
-
+*/
 //#define IS_NEW_PHY_DRIVER 1
 
 #ifndef IS_NEW_PHY_DRIVER
