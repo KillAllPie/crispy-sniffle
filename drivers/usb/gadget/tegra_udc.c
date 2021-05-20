@@ -54,7 +54,6 @@
 #include "../otg/ulpi_viewport.c"
 #include "../../../arch/arm/mach-tegra/fuse.h"
 #include "../../../arch/arm/mach-tegra/fuse.c"
-#include "../../../arch/arm/mach-tegra/pinmux.c"
 #include <mach/pinmux.h>
 #include "../../../arch/arm/mach-tegra/tegra2_speedo.c"
 #include "../../../arch/arm/mach-tegra/apbio.c"
